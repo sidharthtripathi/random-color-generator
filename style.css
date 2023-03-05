@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#main{
+  letter-spacing: 3px;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 40vh;
+  margin-left: 32vw;
+  background-color: #222222;
+  font-size: 40px;
+  color:white;
+  font-weight:600;
+}
+
+#main span{
+  color: #49A6E9;
+}
+
+#change_color{
+  letter-spacing: 3px;
+  margin-left: 50vw;
+  background-color:transparent;
+  border: 2px solid black;
+  font-size: 25px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 5px;
+  margin-top: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#change_color:hover{
+  background-color: #222222;
+  color: white;
+}
